@@ -1,0 +1,44 @@
+header {
+  background-color: #ecf6ff;
+}
+
+.logo-header {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.header-span {
+  color: #0086ff;
+}
+
+.header-first-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #0086ff;
+}
+
+.header-btn {
+  padding: 10px 21px;
+  color: #fff;
+  border-radius: 12px;
+  min-width: 119px;
+  background: #0086ff;
+}
+
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+header .container {
+  padding: 18px 0;
+}
