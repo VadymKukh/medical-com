@@ -1,0 +1,36 @@
+.second-div {
+  display: flex;
+  max-width: 1187px;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0 130px;
+  gap: 150px;
+}
+
+.cont-second {
+  max-width: 490px;
+  min-height: 332px;
+}
+
+.cont-second h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #234a6b;
+  margin-bottom: 26px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.sect-2-btn {
+  border-radius: 8px;
+  padding: 14px 30px;
+  min-width: 145px;
+  min-height: 47px;
+  background: #0086ff;
+  color: #ffffff;
+  transition: background-color 250ms ease-in-out;
+}
+
+.sect-2-btn:hover,
+.sect-2-btn:focus {
+  background-color: #757575;
+}
