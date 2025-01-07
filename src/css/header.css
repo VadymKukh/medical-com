@@ -25,6 +25,12 @@ header {
   border-radius: 12px;
   min-width: 119px;
   background: #0086ff;
+  transition: background-color 250ms ease-in-out;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: #757575;
 }
 
 header .container nav {

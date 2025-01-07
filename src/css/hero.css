@@ -1,0 +1,101 @@
+.hero-sect {
+  background-color: #ecf6ff;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-sub {
+  width: 514px;
+}
+
+.hero-sub h1 {
+  font-weight: 700;
+  font-size: 56px;
+  color: #234a6b;
+  margin-bottom: 21px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.hero-span {
+  color: #0086ff;
+}
+
+.hero-sub p {
+  color: #757575;
+  max-width: 390px;
+  margin-bottom: 37px;
+}
+
+.hero-form div input {
+  color: #1e1e1e;
+  max-width: 100%;
+  width: 514px;
+  height: 60px;
+  border-radius: 12px;
+  border: none;
+  padding-left: 80px;
+  position: relative;
+}
+
+.hero-form div input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  color: #1e1e1e;
+  font-family: 'Inter', sans-serif;
+}
+
+.sub-form {
+  position: relative;
+}
+
+.hero-btn {
+  border-radius: 12px;
+  background-color: #0086ff;
+  min-width: 108px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 250ms ease-in-out;
+}
+
+.ic-src {
+  transition: fill 250ms ease-in-out;
+}
+
+.ic-loc {
+  fill: #fefefe;
+  position: absolute;
+  left: 26px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.ic-src {
+  stroke: #ffffff;
+  fill: #0086ff;
+  stroke-width: 2.5;
+}
+
+.hero-section img {
+  margin-top: 82px;
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: #757575;
+}
+
+.hero-btn:hover .ic-src,
+.hero-btn:focus .ic-src {
+  fill: #757575;
+}
